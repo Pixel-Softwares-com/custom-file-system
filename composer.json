@@ -1,0 +1,35 @@
+{
+  "name": "muhammedaldrubi/custom-file-system",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pixel Company",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "laravel/framework": "^8.75"
+  },
+  "autoload": {
+    "psr-4": {
+      "CustomFileSystem\\": "src/"
+    }
+  },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "CustomFileSystem\\ServiceProviders\\CustomFileSystemServiceProvider\\"
+        ]
+      }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:MuhammedALDRUBI/custom-file-system.git"
+    }
+  ]
+
+}
