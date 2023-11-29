@@ -21,7 +21,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "CustomFileSystem\\ServiceProviders\\CustomFileSystemServiceProvider\\"
+          "CustomFileSystem\\ServiceProviders\\CustomFileSystemServiceProvider"
         ]
       }
   },
