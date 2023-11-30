@@ -24,12 +24,5 @@
           "CustomFileSystem\\ServiceProviders\\CustomFileSystemServiceProvider"
         ]
       }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:MuhammedALDRUBI/custom-file-system.git"
-    }
-  ]
-
+  }
 }
