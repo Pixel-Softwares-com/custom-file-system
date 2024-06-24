@@ -55,6 +55,14 @@ abstract class CustomFileUploader extends CustomFileHandler
     {
         return $file->getClientOriginalName();
     }
+    public function getUploadedFileSize(UploadedFile $file): string
+    {
+        return $file->getSize();
+    }
+    public function getUploadedFileMimeType(UploadedFile $file): string
+    {
+        return $file->getClientMimeType();
+    }
 
     //Make File Object ready to save with its path
     // (It can be used to make files ready to upload when file path is set .... use it for updating operation)
