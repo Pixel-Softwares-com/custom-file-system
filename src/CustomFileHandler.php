@@ -169,6 +169,6 @@ abstract class CustomFileHandler
         if (!$disk) {
             $disk = static::getDefaultDisk();
         }
-        return Storage::disk($disk)->get($FolderRelativePath);
+        return Storage::disk($disk)->get($FolderRelativePath) ?? "";
     }
 }
