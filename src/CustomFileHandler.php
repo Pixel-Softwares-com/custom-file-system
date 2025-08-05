@@ -24,8 +24,8 @@ abstract class CustomFileHandler
      * This method can be used to reset disk to default value in runtime or in constructor.
      *
      * We Need To Use disk property with Storage Facade .... When we depend on this property Storage Facade Can't
-       access the default disk value written in filesystems config file ,
-       and we will have to provide it the value manually .
+     * access the default disk value written in filesystems config file ,
+     * and we will have to provide it the value manually .
      */
     protected function setDefaultDisk(): self
     {
